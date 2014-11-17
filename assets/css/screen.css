@@ -519,16 +519,6 @@ margin on the iframe, cause it breaks stuff. */
     text-shadow: 1px 1px 2px #444;
 }
 
-.post-excerpt p:first-child:first-letter {
-    float: left;
-    font-size: 365%;
-    line-height: 0.5;
-    padding-right: 7px;
-    padding-left: 3px;
-    font-family: "Linear", serif;
-    padding-top: 10px;
-}
-
 .post-meta {
     color: #eee;
     display: block;
