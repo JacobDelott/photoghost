@@ -23,7 +23,15 @@
                 {{content words="0"}}
             </section>
             <section class="post-excerpt">
-                <p>{{excerpt}}</p>
+				{{#if @first}}
+    			{{else}}
+        			{{#if @last}}
+        			{{else}}
+           				 <p>Electric bass player from Los Angeles, CA.</p>
+						 <p>Studied with Victor Wooten, Anthony Wellington, Putter Smith, Tim LeFebvre, and Mike League. </p>
+						 <p>2012 Graduate of Musician's Institute.</p>
+        			{{/if}}
+    			{{/if}}
             </section>
         </div>
     </article>
