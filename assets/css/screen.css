@@ -825,13 +825,12 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     margin: 8rem 0 0 0;
     padding: 4rem 0;
-    border-top: #eee 1px solid;
     font-family: 'Arimo', sans-serif;
     font-size: 0.7em;
     line-height: 1.7em;
     color: #bbb;
     text-align: center;
-    background: #000;
+    background: #161616;
     height: 50px;
 }
 
